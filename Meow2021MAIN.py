@@ -19,6 +19,6 @@ def get_api_key():
 
 
 if __name__ == '__main__':
-    for i in range(0, 30):
+    for i in range(0, 3):
         img = Image.open(get_cat_image())
         img.show()
